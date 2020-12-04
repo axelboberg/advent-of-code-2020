@@ -15,7 +15,7 @@ let x = 0,
     y = 0,
     c = 0
 
-while (y < input.length - SLOPE_Y) {
+while (y < input.length - 1) {
   x += SLOPE_X
   y += SLOPE_Y
   c += isTree(x, y, input)

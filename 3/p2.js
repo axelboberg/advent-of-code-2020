@@ -23,7 +23,7 @@ for (let slope of SLOPES) {
       y = 0,
       c = 0
 
-  while (y < input.length - slope[1]) {
+  while (y < input.length - 1) {
     x += slope[0]
     y += slope[1]
     c += isTree(x, y, input)
